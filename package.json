@@ -1,0 +1,42 @@
+{
+  "name": "yolov8riceusingtfjs",
+  "description": "Rice leaf diseases detection application right in your browser using YOLOv8 and Tensorflow.js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mta3004/Webapp-YOLOv8-riceleafdiseasesdetection"
+  },
+  "keywords": [
+    "object detection",
+    "yolov8",
+    "javascript",
+    "react",
+    "tensorflow.js"
+  ],
+  "author": "Mac Tuan Anh and Giap Dang Khanh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mta3004/Webapp-YOLOv8-riceleafdiseasesdetection/issues"
+  },
+  "homepage": "https://github.com/mta3004/Webapp-YOLOv8-riceleafdiseasesdetection",
+  "dependencies": {
+    "@grapecity/activereports-react": "^4.0.0",
+    "@tensorflow/tfjs": "^4.1.0",
+    "normalize.css": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "gh-pages": "^5.0.0",
+    "vite": "^3.2.3"
+  }
+}
